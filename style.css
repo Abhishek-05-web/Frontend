@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+}
+.navbar{
+    margin: 2px;
+    display:flex;
+    height: 80;
+    background-color: #171758;
+    flex-direction:row; 
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 1%;
+    border: 2px solid rgb(70, 70, 140);
+    position: static;
+}
+.nav-logo{
+    border:2px solid transparent;
+    height:50px;
+    width: 50px;
+}
+/*Logo*/
+.weather{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-left: 10px;
+}
+/*Weather*/
+.text1{
+    display:flex;
+    margin-left:50px;
+    background-color:rgb(254, 251, 251);
+    
+}
+/*GPT*/
+.text2{
+    display:flex;
+    margin-left: 10px;
+    margin-right: 400px;
+    background-color: rgb(6, 220, 235);
+    
+}
+/*Titles: Home ....*/
+.title{
+    display:flex;
+    height: 50px;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#t1{
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    
+}
+#t2{
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+#t3{
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+#t4{
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+#t5{
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+/*Get Started*/
+.text3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    
+    height: 50px;
+    width: 150px;
+    background-color: aquamarine;
+    color: aliceblue;
+    font-family:  Helvetica;
+    font-weight: bold;
+    margin-left: 100px;
+}
+/* actions */
+#t1:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#t2:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#t3:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#t4:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#t5:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.navbar:hover{
+    height: 60px;
+}
+/* hero */
+.hero{
+    
+    margin: 2px;
+    /* margin-top:60px; */
+    border-radius: 1%;
+    display: flex;
+    height: 400px;
+    background-color: rgb(121, 224, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Box1 */
+.Box1{
+    height: 350px;
+    width: 600px;
+    background-color: rgb(43, 92, 226);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Box2 */
+.Box2{
+    height: 350px;
+    width: 600px;
+    background-image: url("/Hackathon/Project01/Image_5.png");
+    background-size: cover;
+    margin-left: 200px;
+    
+}
+#Lin1{
+    height: 50px;
+    width: 200px;
+    margin-bottom:20px;
+    display: flex;
+}
+h1{
+    color: rgb(20, 23, 23);
+    font-family: Arial;
+    margin: 5px;
+    font-size: 50px;
+}
+#Line2{
+    margin-bottom:20px;
+
+} 
+.search{
+    display: flex;
+    height: 50px;
+    width: 500px;
+    background-color: aqua;
+    border:2px solid black;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+#icon{
+    height:20px;
+    width:20px;
+    margin-left:10px;
+}
+input{
+    margin-left:20px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    font-size: 20px;
+
+}
+button{
+    margin: 50px;
+    height: 40px;
+    width: 100px;
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 8%;
+    font-size: 20px;
+    color: white;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#Image1{
+    height: 400px;
+    width: 450px;
+    border:2px solid black;
+    background-image: url("/Hackathon/Project01/Image_1.png");
+    background-size: cover;
+    
+}
+#Image2{
+    height: 400px;
+    width: 220px;
+    border:2px solid black;
+    background-image: url("/Hackathon/Project01/Image_2.png");
+    background-size: cover;
+}
+#Image3{
+    height: 400px;
+    width: 250px;
+    border:2px solid black;
+    background-image: url("/Hackathon/Project01/Imahe_3.png");
+    background-size: cover;
+}
+#Image4{
+    height: 400px;
+    width: 400px;
+    border:2px solid black;
+    background-image: url("/Hackathon/Project01/Image_4.png");
+    background-size: cover;
+}
+#analyze{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    background-color: #171758;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#icon1{
+    display: flex;
+    height: 50px;
+    width: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* footer */
+.footer{
+    margin: 2px;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 50px;
+    width: 250px;
+    border:2px solid transparent;
+}
+#fline1{
+    color: black;
+}
+#fline2{
+    color: black;
+}
+.btitle{
+    display:flex;
+    height: 50px;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#bt1{
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    
+}
+#bt2{
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+}
+#bt3{
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+}
+#bt4{
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+}
+#bt5{
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+}
+#bt1:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#bt2:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#bt3:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#bt4:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#bt5:hover{
+    color: aqua;
+    text-decoration: underline;
+}
